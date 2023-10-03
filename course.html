@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">s
+</head>
+<body>
+     <section class="sub-header">
+        <nav>
+            <a  href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="facilities.html">FACILITIES</a></li>
+                    
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+     </section>
+
+     <!-----Course---->
+     <!--<section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        
+        <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error non qui amet molestiae. Consequatur reiciendis itaque eius sunt delectus excepturi iste similique sequi facere voluptatibus fugit doloremque voluptatem, mollitia a.</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>the various undergraduate degree programmes, diploma, certificate and foundation courses offered at the University .</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error non qui amet molestiae. Consequatur reiciendis itaque eius sunt delectus excepturi iste similique sequi facere voluptatibus fugit doloremque voluptatem, mollitia a.</p>
+        </div>
+    </div>
+    </section>-->
+     
+
+
+    
+
+
+    <!--<style>
+        /* Add CSS for table responsiveness */
+        .course {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        @media (max-width: 768px) {
+            table, th, td {
+                display: block;
+            }
+            th, td {
+                width: 100%;
+            }
+        }
+    </style>-->
+
+
+    <!-- Original HTML structure with a table -->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Explore our range of academic programs.</p>
+        
+        <div class="row">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Program</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bachelor of Science in Computer Science</td>
+                        <td>Prepare for a career in computer science with our comprehensive undergraduate program. Learn programming, algorithms, and software development.</td>
+                    </tr>
+                    <tr>
+                        <td>Bachelor of Arts in English Literature</td>
+                        <td>Immerse yourself in the world of literature with our English Literature degree. Study classic and contemporary works of literature and refine your writing skills.</td>
+                    </tr>
+                    <tr>
+                        <td>Master of Business Administration (MBA)</td>
+                        <td>Advance your career in business and leadership with our MBA program. Gain the skills and knowledge needed to excel in the corporate world.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+
+
+     <!-- footer section-->
+     <footer class="container-fluid footer" id="footer">
+        <!-- social media icons -->
+        <div class="social-icons mt-4">
+            <h2>ABRAHAM KIPLIMO</h2>
+            <h1>REG NO.COM/M/0042/2021</h1>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+        </div>
+    </footer>      
+  
+          
+          <p>Made by smart vinny</p>
+      </section>
+  
+       <!------JavaScript for Toggle Menu------>
+       <script>
+          var navLinks = document.getElementById("navLinks");
+          function showMenu(){
+              navLinks.style.right = "0";
+  
+          }
+          function hideMenu(){
+              navLinks.style.right = "-200px";
+          }
+  
+  
+       </script>
+  
+  </body>
+  </html>

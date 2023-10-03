@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="facilities.html">FACILITIES</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2021</h1>
+    </section>
+
+    <!-- Blog page content -->
+    <section class="blog content">
+        <div class="row">
+            <div class="blog-left col-lg-6">
+                <img src="images/banner2.jpg">
+                <h2>Our Certificate & Online Programs For 2021</h2>
+                <p>The University has made a significant mark in the areas of higher education, community education, and continual professional development. The University has been networking with reputed public institutions and private enterprises for enhancing the educational opportunities being offered by it. As a world leader in distance education, it has been conferred with awards of excellence by the Commonwealth of Learning (COL), Canada, several times. In January 2010, it was listed 12th in the webometric ranking of Indian universities, based on the calibre of its presence on the Internet.</p>
+                <p>The University offers several post categories, Business analytics, Data science among others.</p>
+            </div>
+            <!-- Right column for the YouTube video -->
+            <div class="col-lg-6">
+                <!-- YouTube Video -->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/P_DzmVVy9hQ?si=QwMkAgn8fRDFuIbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <!--<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/l6hjm7kFcPo?si=BUVyLIApm9CzfcFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leave a comment section (currently commented out) -->
+    <!-- <section class="comment-box">
+        <h3>Leave a comment</h3>
+        <form class="comment-form">
+            <input type="text" placeholder="Enter Name">
+            <input type="email" placeholder="Enter Email">
+            <textarea rows="5" placeholder="Your comment"></textarea>
+            <button type="submit" class="hero btn red-btn">POST COMMENT</button>
+        </form>
+    </section> -->
+
+    <!-- Footer section -->
+    <footer class="container-fluid footer" id="footer">
+        <!-- Social media icons -->
+        <div class="social-icons mt-4">
+            <h2>ABRAHAM KIPLIMO</h2>
+            <h1>REG NO.COM/M/0042/2021</h1>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a>
+        </div>
+    </footer>
+
+    <p>Made by smart vinny</p>
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
+
+
+  
